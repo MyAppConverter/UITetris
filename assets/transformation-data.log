@@ -1,0 +1,590 @@
+
+
+								MyAppConverter
+                           Version 1.0, Sep, 18 2014 - 11:03:47
+                        http://www.myappconverter.com/
+
+
+
+TRANSFORMATION MAPPING NOTES
+
+
+
+	
+	
+		
+[+] FILE: [UITetrisGame.java] ---
+-Variable with Name _gameBoard and Type: UITetrisBlock is Not Mapped!
+-Variable with Name _nextTetronimos and Type: NSMutableArray is Mapped!
+-Variable with Name _gameTimer and Type: NSTimer is Mapped!
+-Variable with Name _lastFireDate and Type: NSDate is Mapped!
+-Variable with Name _nextStepTimeElapsed and Type:  is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+				
+			
+				
+			
+		
+			
+		
+	
+		
+[+] FILE: [UITetrisGame.java] ---
+-Method with Name init is Mapped!
+-Method with Name init is Mapped!
+-Method with Name date is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name dealloc is Not Mapped!
+-Method with Name count is Mapped!
+-Method with Name addObjectsFromArray is Not Mapped!
+-Method with Name _randomTetronimoSet is Not Mapped!
+-Method with Name lastObject is Mapped!
+-Variable with Name blocks and Type: UITetrisBlock is Not Mapped!
+-Method with Name blocks is Not Mapped!
+-Variable with Name row and Type: int is Not Mapped!
+-Variable with Name col and Type: int is Not Mapped!
+-Variable with Name idx and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name getXPosition is Not Mapped!
+-Method with Name _checkLinesCleared is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name tetrisBoardDidChange is Not Mapped!
+-Variable with Name blocks and Type: UITetrisBlock is Not Mapped!
+-Method with Name blocks is Not Mapped!
+-Variable with Name row and Type: int is Not Mapped!
+-Variable with Name col and Type: int is Not Mapped!
+-Variable with Name idx and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name getXPosition is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Variable with Name rows and Type: [20] is Not Mapped!
+-Variable with Name count and Type: long is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name shouldClearLine and Type:  is Not Mapped!
+-Variable with Name j and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name _clearLineAtRow is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name clearedLinesAtRows is Not Mapped!
+-Variable with Name idx and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name setScore is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name tetrisBoardDidChange is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name shouldUpdateScore is Not Mapped!
+-Method with Name getScore is Not Mapped!
+-Method with Name setXPosition is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Method with Name setXPosition is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name _solidifyFallingTetronimo is Not Mapped!
+-Method with Name _placeAndSetNextTetronimo is Not Mapped!
+-Method with Name rotateLeft is Not Mapped!
+-Method with Name rotateRight is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name _checkBlockCollisions is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Variable with Name cheatCounter and Type: int is Not Mapped!
+-Variable with Name tetronimoChange and Type: int is Not Mapped!
+-Variable with Name shouldRotate and Type:  is Not Mapped!
+-Variable with Name cheatAllowed and Type: int is Not Mapped!
+-Method with Name _checkBounds is Not Mapped!
+-Variable with Name change and Type: int is Not Mapped!
+-Method with Name getXPosition is Not Mapped!
+-Method with Name setXPosition is Not Mapped!
+-Method with Name setXPosition is Not Mapped!
+-Method with Name _checkBlockCollisions is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name _gameOver is Not Mapped!
+-Method with Name rotateRight is Not Mapped!
+-Method with Name rotateLeft is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name _solidifyFallingTetronimo is Not Mapped!
+-Method with Name _placeAndSetNextTetronimo is Not Mapped!
+-Method with Name _verifyGameDelegateForSelector is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name gameOver is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name tetrisBoardDidChange is Not Mapped!
+-Method with Name initWithFireDateIntervalTargetSelectorUserInfoRepeats is Mapped!
+-Method with Name date is Not Mapped!
+-Method with Name currentRunLoop is Not Mapped!
+-Method with Name addTimerForMode is Mapped!
+-Method with Name setScore is Not Mapped!
+-Method with Name _resetGameBoard is Not Mapped!
+-Method with Name _placeAndSetNextTetronimo is Not Mapped!
+-Variable with Name delta and Type:  is Not Mapped!
+-Method with Name timeIntervalSinceNow is Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name date is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name conformsToProtocol is Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name respondsToSelector is Not Mapped!
+-Method with Name getIsRunning is Not Mapped!
+-Variable with Name dt and Type: float is Not Mapped!
+-Method with Name _getDeltaTime is Not Mapped!
+-Method with Name getFallingTetronimo is Not Mapped!
+-Method with Name getFallingTetronimo is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name _checkCollisionsOfType is Not Mapped!
+-Method with Name getFallingTetronimo is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name getFallingTetronimo is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name _gameOver is Not Mapped!
+-Method with Name _solidifyFallingTetronimo is Not Mapped!
+-Method with Name _placeAndSetNextTetronimo is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name tetrisGameDidUpdate is Not Mapped!
+-Variable with Name rand and Type: int is Not Mapped!
+-Variable with Name tetronimo and Type: UITetronimo is Not Mapped!
+-Method with Name initWithType is Not Mapped!
+-Method with Name autorelease is Not Mapped!
+-Variable with Name types and Type: [7] is Not Mapped!
+-Variable with Name result and Type: NSMutableArray is Mapped!
+-Method with Name initWithCapacity is Mapped!
+-Variable with Name rand and Type: int is Not Mapped!
+-Variable with Name temp and Type: int is Not Mapped!
+-Variable with Name newIdx and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name tet and Type: UITetronimo is Not Mapped!
+-Method with Name initWithType is Not Mapped!
+-Method with Name addObject is Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name autorelease is Not Mapped!
+-Method with Name count is Mapped!
+-Variable with Name tets and Type: NSArray is Mapped!
+-Method with Name _randomTetronimoSet is Not Mapped!
+-Method with Name addObjectsFromArray is Not Mapped!
+-Variable with Name result and Type: UITetronimo is Not Mapped!
+-Method with Name lastObject is Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name removeLastObject is Not Mapped!
+-Method with Name autorelease is Not Mapped!
+-Variable with Name tet and Type: UITetronimo is Not Mapped!
+-Method with Name _popTetronimo is Not Mapped!
+-Method with Name setXPosition is Not Mapped!
+-Method with Name setYPosition is Not Mapped!
+-Method with Name setFallingTetronimo is Not Mapped!
+-Method with Name _checkBlockCollisions is Not Mapped!
+-Method with Name _gameOver is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name shouldDisplayNextTetronimo is Not Mapped!
+-Method with Name nextTetronimo is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name getGameDelegate is Not Mapped!
+-Method with Name tetrisBoardDidChange is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+				
+			
+		
+			
+		
+	
+		
+[+] FILE: [UITetrisView.java] ---
+-Variable with Name _gameBoardView and Type: UIView is Mapped!
+-Variable with Name _nextTetronimoView and Type: UIView is Mapped!
+-Variable with Name _nextTetronimoContentView and Type: UIView is Mapped!
+-Variable with Name _scoreLabel and Type: UILabel is Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+		
+	
+		
+[+] FILE: [UITetrisView.java] ---
+-Method with Name setBackgroundColor is Not Mapped!
+-Method with Name blackColor is Not Mapped!
+-Method with Name setBlockSize is Not Mapped!
+-Method with Name setBoardIsDirty is Not Mapped!
+-Method with Name init is Mapped!
+-Method with Name initialize is Not Mapped!
+-Method with Name initWithCoder is Not Mapped!
+-Method with Name initialize is Not Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name initialize is Not Mapped!
+-Variable with Name bg and Type: UIImageView is Mapped!
+-Method with Name initWithImage is Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name setFrame is Not Mapped!
+-Method with Name insertSubviewAtIndex is Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name boardWidth and Type: float is Not Mapped!
+-Variable with Name boardHeight and Type: float is Not Mapped!
+-Variable with Name gameBoardRect and Type: CGRect is Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name setClipsToBounds is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Method with Name init is Mapped!
+-Method with Name setTextAlignment is Not Mapped!
+-Method with Name setFont is Not Mapped!
+-Method with Name setTextColor is Not Mapped!
+-Method with Name setBackgroundColor is Not Mapped!
+-Method with Name setText is Not Mapped!
+-Method with Name sizeToFit is Not Mapped!
+-Method with Name setCenter is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Variable with Name nextWidth and Type: float is Not Mapped!
+-Variable with Name nextHeight and Type: float is Not Mapped!
+-Variable with Name nextDisplayRect and Type: CGRect is Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name setClipsToBounds is Not Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name addSubview is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name dealloc is Not Mapped!
+-Method with Name setText is Not Mapped!
+-Method with Name updateNextTetronimoDisplay is Not Mapped!
+-Method with Name nextTetronimo is Not Mapped!
+-Variable with Name blocks and Type: UITetrisBlock is Not Mapped!
+-Method with Name blocks is Not Mapped!
+-Method with Name animateWithDuration is Not Mapped!
+-Method with Name setTransform is Not Mapped!
+-Variable with Name oldImageViewInter and Type: Object is Mapped!
+-Method with Name getSubviews is Not Mapped!
+-Method with Name getTag is Not Mapped!
+-Method with Name removeFromSuperview is Not Mapped!
+-Variable with Name tetWidth and Type: float is Not Mapped!
+-Variable with Name tetHeight and Type: float is Not Mapped!
+-Variable with Name blkXOffset and Type: float is Not Mapped!
+-Variable with Name blkYOffset and Type: float is Not Mapped!
+-Variable with Name nextTetOrigin and Type: CGPoint is Mapped!
+-Method with Name getType is Not Mapped!
+-Method with Name getType is Not Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name getType is Not Mapped!
+-Method with Name getType is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name imageView and Type: UIImageView is Mapped!
+-Method with Name initWithImage is Mapped!
+-Method with Name image is Not Mapped!
+-Method with Name setFrame is Not Mapped!
+-Method with Name setTag is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name setTransform is Not Mapped!
+-Method with Name animateWithDuration is Not Mapped!
+-Method with Name setTransform is Not Mapped!
+-Method with Name setText is Not Mapped!
+-Method with Name stringWithFormat is Not Mapped!
+-Variable with Name animationView and Type: UIView is Mapped!
+-Variable with Name posY and Type: float is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name setBackgroundColor is Not Mapped!
+-Method with Name setAlpha is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Method with Name animateWithDuration is Not Mapped!
+-Method with Name setAlpha is Not Mapped!
+-Method with Name animateWithDuration is Not Mapped!
+-Method with Name setTransform is Not Mapped!
+-Method with Name setAlpha is Not Mapped!
+-Method with Name removeFromSuperview is Not Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name drawX and Type: float is Not Mapped!
+-Variable with Name drawY and Type: float is Not Mapped!
+-Variable with Name blockRect and Type: CGRect is Mapped!
+-Method with Name getFrame is Not Mapped!
+-Method with Name getFrame is Not Mapped!
+-Method with Name setFrame is Not Mapped!
+-Method with Name getSuperview is Not Mapped!
+-Method with Name addSubview is Not Mapped!
+-Variable with Name xPos and Type: int is Not Mapped!
+-Variable with Name yPos and Type: int is Not Mapped!
+-Method with Name _drawBlock is Not Mapped!
+-Variable with Name blocks and Type: UITetrisBlock is Not Mapped!
+-Method with Name gameBoard is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name _drawBlock is Not Mapped!
+-Method with Name setBoardIsDirty is Not Mapped!
+-Variable with Name tet and Type: UITetronimo is Not Mapped!
+-Method with Name fallingTetronimo is Not Mapped!
+-Variable with Name tetblocks and Type: UITetrisBlock is Not Mapped!
+-Method with Name blocks is Not Mapped!
+-Variable with Name xPos and Type: int is Not Mapped!
+-Variable with Name yPos and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name getXPosition is Not Mapped!
+-Method with Name getYPosition is Not Mapped!
+-Method with Name _drawBlock is Not Mapped!
+-Method with Name _drawFallingTetronimo is Not Mapped!
+-Method with Name _drawBlocks is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+		
+	
+		
+[+] FILE: [UITetrisViewController.java] ---
+-Variable with Name tetrisGame and Type: UITetrisGame is Not Mapped!
+-Variable with Name musicPlayer and Type: AVAudioPlayer is Mapped!
+-Variable with Name _touchDistanceMoved and Type: float is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+		
+	
+		
+[+] FILE: [UITetrisViewController.java] ---
+-Method with Name init is Mapped!
+-Method with Name init is Mapped!
+-Method with Name setGameDelegate is Not Mapped!
+-Method with Name setGameSpeed is Not Mapped!
+-Method with Name startGame is Not Mapped!
+-Variable with Name windowBounds and Type: CGRect is Mapped!
+-Method with Name mainScreen is Not Mapped!
+-Method with Name bounds is Not Mapped!
+-Variable with Name tetrisView and Type: UITetrisView is Not Mapped!
+-Method with Name initWithFrame is Mapped!
+-Method with Name setGame is Not Mapped!
+-Method with Name setView is Not Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name swipeGR and Type: UISwipeGestureRecognizer is Mapped!
+-Method with Name initWithTargetAction is Mapped!
+-Method with Name setDirection is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name addGestureRecognizer is Not Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name err and Type: NSError is Mapped!
+-Variable with Name url and Type: NSURL is Mapped!
+-Method with Name mainBundle is Mapped!
+-Method with Name URLForResourceWithExtension is Mapped!
+-Method with Name initWithContentsOfURLError is Mapped!
+-Method with Name setNumberOfLoops is Not Mapped!
+-Method with Name play is Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name stop is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name dealloc is Not Mapped!
+-Variable with Name touch and Type: UITouch is Mapped!
+-Method with Name anyObject is Mapped!
+-Variable with Name previous and Type: CGPoint is Mapped!
+-Variable with Name now and Type: CGPoint is Mapped!
+-Variable with Name xDiff and Type: float is Not Mapped!
+-Variable with Name yDiff and Type: float is Not Mapped!
+-Variable with Name xDistanceMoved and Type: float is Not Mapped!
+-Variable with Name yDistanceMoved and Type: float is Not Mapped!
+-Method with Name previousLocationInView is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name locationInView is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name moveTetronimo is Not Mapped!
+-Method with Name moveTetronimo is Not Mapped!
+-Method with Name moveTetronimo is Not Mapped!
+-Variable with Name pt and Type: CGPoint is Mapped!
+-Method with Name anyObject is Mapped!
+-Method with Name locationInView is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name getBounds is Not Mapped!
+-Method with Name rotateTetronimo is Not Mapped!
+-Method with Name rotateTetronimo is Not Mapped!
+-Method with Name dropTetronimo is Not Mapped!
+-Method with Name getIsViewLoaded is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name redraw is Not Mapped!
+-Method with Name getIsViewLoaded is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name updateNextTetronimoDisplay is Not Mapped!
+-Method with Name getIsViewLoaded is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name setBoardIsDirty is Not Mapped!
+-Method with Name getIsViewLoaded is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name setScore is Not Mapped!
+-Method with Name getIsViewLoaded is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name animateClearLinesAtRows is Not Mapped!
+-Variable with Name message and Type: NSString is Mapped!
+-Method with Name stringWithFormat is Not Mapped!
+-Method with Name getScore is Not Mapped!
+-Variable with Name alert and Type: UIAlertView is Mapped!
+-Method with Name initWithTitleMessageDelegateCancelButtonTitleOtherButtonTitles is Mapped!
+-Method with Name show is Not Mapped!
+-Method with Name release is Not Mapped!
+-Method with Name getView is Not Mapped!
+-Method with Name setScore is Not Mapped!
+-Method with Name startGame is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+		
+	
+		
+[+] FILE: [UITetronimo.java] ---
+-Variable with Name imageView and Type: UIImageView is Mapped!
+-Variable with Name color and Type: UITetrisBlockColor is Not Mapped!
+-Variable with Name _blocks and Type: UITetrisBlock is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+				
+			
+				
+			
+				
+			
+		
+		
+			
+				
+			
+			
+		
+	
+		
+[+] FILE: [UITetronimo.java] ---
+-Variable with Name iBlock and Type: [16] is Not Mapped!
+-Variable with Name jBlock and Type: [16] is Not Mapped!
+-Variable with Name lBlock and Type: [16] is Not Mapped!
+-Variable with Name oBlock and Type: [16] is Not Mapped!
+-Variable with Name sBlock and Type: [16] is Not Mapped!
+-Variable with Name tBlock and Type: [16] is Not Mapped!
+-Variable with Name zBlock and Type: [16] is Not Mapped!
+-Variable with Name purpleBlockImg and Type: UIImage is Mapped!
+-Variable with Name yellowBlockImg and Type: UIImage is Mapped!
+-Variable with Name tealBlockImg and Type: UIImage is Mapped!
+-Variable with Name redBlockImg and Type: UIImage is Mapped!
+-Variable with Name greenBlockImg and Type: UIImage is Mapped!
+-Variable with Name orangeBlockImg and Type: UIImage is Mapped!
+-Variable with Name blueBlockImg and Type: UIImage is Mapped!
+-Variable with Name blk and Type: UITetrisBlock is Not Mapped!
+-Variable with Name image and Type: UIImage is Mapped!
+-Method with Name initWithImage is Mapped!
+-Variable with Name new_blk and Type: UITetrisBlock is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name removeFromSuperview is Not Mapped!
+-Method with Name release is Not Mapped!
+-Variable with Name loadedAlready and Type:  is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name imageNamed is Not Mapped!
+-Method with Name retain is Not Mapped!
+-Method with Name init is Mapped!
+-Method with Name init is Mapped!
+-Variable with Name blks and Type: int is Not Mapped!
+-Variable with Name color and Type: UITetrisBlockColor is Not Mapped!
+-Method with Name setType is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name dealloc is Not Mapped!
+-Variable with Name blks and Type: [16] is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name row and Type: int is Not Mapped!
+-Variable with Name col and Type: int is Not Mapped!
+-Variable with Name blks and Type: [16] is Not Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Variable with Name row and Type: int is Not Mapped!
+-Variable with Name col and Type: int is Not Mapped!
+-Variable with Name str and Type: NSMutableString is Mapped!
+-Method with Name string is Mapped!
+-Variable with Name i and Type: int is Not Mapped!
+-Method with Name appendString is Not Mapped!
+-Method with Name appendString is Not Mapped!
+-Method with Name appendFormat is Not Mapped!
+
+		
+		
+				
+					
+				
+		
+		
+			
+		
+	
+	
+	
+
+
+
+END OF TRANSFORMATION MAPPING NOTES
+(c)	www.myappconverter.com
+

@@ -1,0 +1,6 @@
+UITetris
+=========================
+Simple Tetris implementation written using UIKit for rendering.
+
+Written by Charles Magahern (http://charles.magahern.com)
+Block graphics by Ben Langholz (http://www.benlangholz.com)
